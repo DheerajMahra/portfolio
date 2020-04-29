@@ -1,0 +1,38 @@
+.Navigation__checkbox {
+    display: none;
+}
+
+.Navigation__toggler {
+    background-color: var(--text-primary);
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    border-radius: 50%;
+    z-index: 200;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.Navigation__checkbox:checked ~ .Navigation__toggler {
+    transform: rotate(135deg);
+}
+
+.Navigation__checkbox:checked ~ .Navigation__background {
+    transform: scale(80); 
+}
+  
+  .Navigation__checkbox:checked ~ .Navigation__nav {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}

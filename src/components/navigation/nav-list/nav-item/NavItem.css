@@ -1,0 +1,28 @@
+.Navigation__item {
+    position: relative;
+    margin: 1rem;
+}
+
+.Navigation__close-on-click {
+    
+}
+
+.Navigation__link:link,
+.Navigation__link:visited {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, var(--text-primary) 50%);
+    background-size: 240%;
+    transition: all .4s;
+}
+
+.Navigation__link:hover, .Navigation__link:active {
+    background-position: 100%;
+    color: var(--text-secondary);
+    transform: translateX(1rem);
+}

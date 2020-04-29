@@ -1,0 +1,74 @@
+.Section-hero {
+    position: relative;
+    height: 95vh;
+    background: var(--color-primary);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+@media (max-width: 600px) {
+    .Section-hero {
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    }
+}
+
+.Hero__react-bg {
+    position: absolute;
+    color: rgba(255, 255, 255, .06);
+    font-size:50rem;
+    top: 45vh;
+    left: -22rem;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 600px) {
+    .Hero__react-bg {
+        font-size:30rem;
+        top: 10vh;
+        left: -15rem;
+    }
+}
+
+.Section-hero__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.Hero__pic {
+    position: relative;
+    width: 15rem;
+    border-radius: 50%;
+    border: 1.2rem solid rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 600px) {
+    .Hero__pic {
+        width: 20rem;
+        border-width: 1.5rem;
+    }
+}
+
+.Heading-primary--main {
+    display: block;
+    font-size: 7rem;
+    color: var(--text-primary);
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .Heading-primary--main {
+        font-size: 5rem;
+    }
+}
+
+.Heading-primary--sub {
+    font-size: 2rem;
+    color: var(--text-primary);
+    letter-spacing: .4rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    border: .1rem solid var(--text-primary);
+}

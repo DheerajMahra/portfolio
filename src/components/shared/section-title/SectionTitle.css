@@ -1,0 +1,11 @@
+.Section-title__text {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 600px) {
+    .Section-title__text {
+        font-size: 4.5rem;
+    }
+}

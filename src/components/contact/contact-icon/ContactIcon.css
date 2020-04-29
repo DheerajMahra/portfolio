@@ -1,0 +1,5 @@
+.Contact__icon {
+    color: var(--text-primary);
+    font-size: 6rem;
+    border-radius: 50%;
+}
