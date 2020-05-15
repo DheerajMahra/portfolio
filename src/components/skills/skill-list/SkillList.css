@@ -8,3 +8,9 @@
     margin: 0 auto;
     position: relative;
 }
+
+@media (max-width: 600px) {
+    .Skill-list {
+        max-width: 80%;
+    }
+}

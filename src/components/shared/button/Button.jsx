@@ -3,11 +3,14 @@ import './Button.css'
 
 const Button = props => {
 
+    const { primary, tertiary, href } = props
+
     let classes = "Button "
-    classes += props.inverted ? "Button--inverted" : null
+    classes += primary ? "Button--primary" : ""
+    classes += tertiary ? "Button--tertiary" : ""
 
     return (
-        <a className={classes}>
+        <a className={classes} href={href} target="_blank">
         {props.children}
         </a>
     )

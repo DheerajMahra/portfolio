@@ -1,21 +1,29 @@
 .Button {
-    position: fixed;
-    top: 3rem;
-    left: 3rem;
-    z-index: 200;
     padding: .9rem 2rem;
-    color: var(--text-primary);
     display: inline-block;
-    border: .15rem solid var(--color-tertiary);
     border-radius: .2rem;
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: .1rem;
     cursor: pointer;
     text-transform: uppercase;
+    margin-right: 1.2rem;
+    text-decoration: none;
 }
 
-.Button--inverted {
-    color: var(--color-tertiary);
-    border: .13rem solid var(--color-tertiary);
+@media (max-width: 768px) {
+    .Button {
+        font-size: 1.8rem;
+    }
 }
+
+.Button--primary {
+    color: var(--color-primary);
+    background-color: rgba(67, 58, 139, 0.118);
+}
+
+.Button--tertiary{
+    color: var(--color-tertiary);
+    background-color: rgba(240, 86, 135, 0.118)
+}
+
