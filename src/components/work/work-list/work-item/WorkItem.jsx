@@ -10,14 +10,10 @@ const WorkItem = props => {
 
     const { title, img, live, github} = props
 
-    let imgClasses = 'Work-item__img '
-    imgClasses += props.borderYellow ? "border-yellow" : ""
-    imgClasses += props.borderOrange ? "border-orange" : ""
-
     return (
         <div className="Work-list__item">
             <div className="Work-item__img-box">
-                <img  className={imgClasses} src={img} alt={img} />
+                <img  className="Work-item__img" src={img} alt={img} />
             </div>
             <div className="Work-item__content-box">
                 <h3 className="Work-item__head">{title}</h3>
