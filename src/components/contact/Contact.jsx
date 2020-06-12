@@ -16,7 +16,7 @@ const Contact = () => {
             <div className="u-tc">
                 <h3 className="Contact__mail">dheerajmahra873@gmail.com</h3>
             </div>
-            
+
             <div className="Contact__social">
 
                 <ContactIcon href="https://www.linkedin.com/in/dheerajmahra">
