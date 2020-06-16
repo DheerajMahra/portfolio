@@ -4,7 +4,7 @@ import Colorful from '../../../assets/colorful.png'
 import Goalpost from '../../../assets/goalpost.png'
 import Gifractor from '../../../assets/gifractor.png'
 import Riocart from '../../../assets/riocart.png'
-
+import Imagify from '../../../assets/imagify.png'
 import WorkItem from './work-item/WorkItem'
 
 const WorkList = props => {
@@ -24,6 +24,13 @@ const WorkList = props => {
                 live="https://goalpost.now.sh"
                 github="https://github.com/DheerajMahra/goalpost"
             >Goalpost tracks your goal for the day so that people can see what you are working on and get motivation from you. Become more productive and have a clear vision of what you want to achieve today.</WorkItem>
+
+            <WorkItem
+                title="Imagify"
+                img={Imagify}
+                live="https://imagify.vercel.app"
+                github="https://github.com/DheerajMahra/imagify"
+            >Imagify is an app that helps you to download free high quality images in a single click. With over millions of free images of all kinds, it's the best app to download images without any hidden clickbait.</WorkItem>
 
             <WorkItem
                 title="Gifractor"
