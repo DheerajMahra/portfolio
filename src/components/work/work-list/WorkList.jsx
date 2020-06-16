@@ -16,6 +16,7 @@ const WorkList = props => {
                 img={Colorful}
                 live="https://colorful.now.sh"
                 github="https://github.com/DheerajMahra/colorful"
+                tags="React, Firebase, Productivity"
             >Colorful is an app that helps designers and developers to choose color palettes for their next successful project. It has a collection of fresh palettes created by people everyday.</WorkItem>
 
             <WorkItem
@@ -23,13 +24,16 @@ const WorkList = props => {
                 img={Goalpost}
                 live="https://goalpost.now.sh"
                 github="https://github.com/DheerajMahra/goalpost"
-            >Goalpost tracks your goal for the day so that people can see what you are working on and get motivation from you. Become more productive and have a clear vision of what you want to achieve today.</WorkItem>
+                tags="React, Firebase, Productivity"
+            >Goalpost tracks your goal for the day so that people can see what you are working on and get motivation from you. Become more productive and have a clear vision of what you want to achieve today.
+            </WorkItem>
 
             <WorkItem
                 title="Imagify"
                 img={Imagify}
                 live="https://imagify.vercel.app"
                 github="https://github.com/DheerajMahra/imagify"
+                tags="React, Productivity"
             >Imagify is an app that helps you to download free high quality images in a single click. With over millions of free images of all kinds, it's the best app to download images without any hidden clickbait.</WorkItem>
 
             <WorkItem
@@ -37,6 +41,7 @@ const WorkList = props => {
                 img={Gifractor}
                 live="https://gifractor.now.sh"
                 github="https://github.com/DheerajMahra/gifractor"
+                tags="React, JustForFun"
             >Record yourself and create custom meme gifs. This app lets you to create two second gifs using your front camera. Download and share the gif and let the meme gif war begin!</WorkItem>
 
             <WorkItem
@@ -44,6 +49,7 @@ const WorkList = props => {
                 img={Riocart}
                 live="https://riocart.now.sh"
                 github="https://github.com/DheerajMahra/riocart-redux"
+                tags="React, Redux, Functionality"
             >Riocart is an e-commerce mobile store that mocks the functionality of a real-world shopping app. It allows you to add a product to cart, wishlist a product and checkout.</WorkItem>
 
         </div>

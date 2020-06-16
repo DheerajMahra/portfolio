@@ -55,7 +55,18 @@
     font-size: 1.8rem;
     letter-spacing: .2rem;
     font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.Work-item__tags {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: grey;
     margin-bottom: 2rem;
+}
+
+.Work-item__tag-icon {
+    margin-right: .5rem;
 }
 
 @media (max-width: 425px) {
