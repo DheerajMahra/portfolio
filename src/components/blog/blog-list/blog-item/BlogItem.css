@@ -4,7 +4,7 @@
 
 @media (max-width: 768px) {
     .Blog__Item {
-        margin: 4rem;
+        margin: 0 4rem 4rem 4rem;
     }
 }
 
