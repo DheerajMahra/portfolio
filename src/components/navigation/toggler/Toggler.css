@@ -24,7 +24,7 @@
 }
 
 .Navigation__checkbox:checked ~ .Navigation__toggler {
-    transform: rotate(135deg);
+    transform: rotate(180deg);
 }
 
 .Navigation__checkbox:checked ~ .Navigation__background {
@@ -35,4 +35,8 @@
     opacity: 1;
     visibility: visible;
     width: 100%;
+}
+
+.Navigation__icon{
+    font-size: 2rem;
 }
