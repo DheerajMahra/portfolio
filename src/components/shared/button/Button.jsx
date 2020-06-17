@@ -10,7 +10,7 @@ const Button = props => {
     classes += tertiary ? "Button--tertiary" : ""
 
     return (
-        <a className={classes} href={href} target="_blank">
+        <a className={classes} href={href} target="_blank" rel="noopener noreferrer">
         {props.children}
         </a>
     )

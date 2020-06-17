@@ -7,6 +7,7 @@ const ContactIcon = props => {
         className="Icon-box"
         href={props.href}
         target="_blank"
+        rel="noopener noreferrer"
         >
         {props.children}
         </a>

@@ -41,8 +41,8 @@ const WorkList = props => {
                 img={Gifractor}
                 live="https://gifractor.now.sh"
                 github="https://github.com/DheerajMahra/gifractor"
-                tags="React, JustForFun"
-            >Record yourself and create custom meme gifs. This app lets you to create two second gifs using your front camera. Download and share the gif and let the meme gif war begin!</WorkItem>
+                tags="React, Just for Fun"
+            >Record yourself and create custom meme gifs. This app lets you to create two second gifs using your front camera. Download, share the gif and let the meme gif war begin!</WorkItem>
 
             <WorkItem
                 title="Riocart"
