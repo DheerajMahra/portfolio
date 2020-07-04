@@ -1,0 +1,40 @@
+.App {
+    position: relative;
+}
+
+.Alert {
+    position: fixed;
+    bottom: 0;
+    z-index: 10000;
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--text-primary);
+    background-color: rgb(235, 67, 67);
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Alert__link {
+    color: var(--text-primary);
+    text-decoration: none;
+    flex: 1;
+}
+
+.Alert__goto {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.Alert__close-wrap {
+    line-height: 1;
+}
+
+.Alert__close {
+    font-size: 2rem;
+    margin: 0 2rem;
+    cursor: pointer;
+}

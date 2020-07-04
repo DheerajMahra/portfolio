@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faMedium, faInstagram }
+import { faLinkedin, faGithub, faMedium, faInstagram, faYoutube }
 from "@fortawesome/free-brands-svg-icons"
 
 import SectionTitle from '../shared/section-title/SectionTitle'
@@ -33,6 +33,10 @@ const Contact = () => {
 
                 <ContactIcon href="https://instagram.com/dheeraj_mahra">
                     <FontAwesomeIcon className="Contact__icon" icon={faInstagram} />
+                </ContactIcon>
+
+                <ContactIcon href="https://www.youtube.com/channel/UCKtmVQUUX7gRDpdhicUGJhA?view_as=subscriber">
+                    <FontAwesomeIcon className="Contact__icon" icon={faYoutube} />
                 </ContactIcon>
             
             </div>
