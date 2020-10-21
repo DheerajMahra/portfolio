@@ -4,7 +4,7 @@ import Colorful from '../../../assets/colorful.png'
 import Goalpost from '../../../assets/goalpost.png'
 import Gifractor from '../../../assets/gifractor.png'
 import Riocart from '../../../assets/riocart.png'
-import Imagify from '../../../assets/imagify.png'
+import Emojix from '../../../assets/emojix.png'
 import WorkItem from './work-item/WorkItem'
 
 const WorkList = props => {
@@ -29,12 +29,12 @@ const WorkList = props => {
             </WorkItem>
 
             <WorkItem
-                title="Imagify"
-                img={Imagify}
-                live="https://imagify.vercel.app"
-                github="https://github.com/DheerajMahra/imagify"
-                tags="React, Productivity"
-            >Imagify is an app that helps you to download free high quality images in a single click. With over millions of free images of all kinds, it's the best app to download images without any hidden clickbait.</WorkItem>
+                title="Emojix"
+                img={Emojix}
+                live="https://emojix.vercel.app"
+                github="https://github.com/DheerajMahra/emojix"
+                tags="React, Styled-components, Just for Fun"
+            >Emojix is an Instagram-live inspired emoji reaction app that fires floating emojies across the screen on clicking on the emoji buttons. Beware! People say it's an addictive app.</WorkItem>
 
             <WorkItem
                 title="Gifractor"

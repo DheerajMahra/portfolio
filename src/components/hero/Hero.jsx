@@ -12,7 +12,13 @@ const Hero = () => {
                 </div>
                 <h1 className="Heading-primary">
                     <span className="Heading-primary--main">Dheeraj Mahra</span>
-                    <span className="Heading-primary--sub">&lt; Front End Web Developer /&gt;</span>
+                    <a
+                        href="https://active.ai"
+                        style={{textDecoration: "none"}}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span className="Heading-primary--sub">&lt; Front End Developer @Active.Ai /&gt;</span></a>
                 </h1>
             </div>
         </div>
