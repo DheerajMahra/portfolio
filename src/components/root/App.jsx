@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-
+import ReactGA from 'react-ga';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
@@ -15,6 +15,11 @@ import Contact from '../contact/Contact'
 function App() {  
 
   const [isClosed, setIsClosed] = useState(false)
+
+  useEffect(() => {
+    ReactGA.initialize('UA-190287965-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
 
   return (
     <div className="App">
