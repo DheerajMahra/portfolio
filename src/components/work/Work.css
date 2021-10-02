@@ -7,3 +7,14 @@
     width: 80%;
     margin: auto;
 }
+
+.Work__strong {
+    margin-top: 9rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border: .2rem solid var(--color-tertiary);
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--color-tertiary);
+    font-style: italic;
+}
