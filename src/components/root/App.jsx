@@ -3,7 +3,6 @@ import './App.css';
 import ReactGA from 'react-ga';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faTimes } from '@fortawesome/free-solid-svg-icons'
-import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 import Navigation from '../navigation/Navigation'
 import Hero from '../hero/Hero'
 import About from '../about/About'

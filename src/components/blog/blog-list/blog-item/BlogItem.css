@@ -1,12 +1,13 @@
 .Blog__Item {
-    flex: 0 0 25%;
+    margin: 4rem;
 }
 
+/*
 @media (max-width: 768px) {
     .Blog__Item {
         margin: 0 4rem 4rem 4rem;
     }
-}
+} */
 
 .ImgBox {
     margin-bottom: 1rem;
