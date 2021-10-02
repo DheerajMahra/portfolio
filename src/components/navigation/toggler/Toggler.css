@@ -3,11 +3,12 @@
 }
 
 .Navigation__toggler {
+    border: 2px solid var(--text-secondary);
     background-color: var(--text-primary);
     height: 5rem;
     width: 5rem;
     position: fixed;
-    top: 3rem;
+    bottom: 3rem;
     right: 3rem;
     border-radius: 50%;
     z-index: 200;

@@ -3,7 +3,7 @@
     width: 5rem;
     border-radius: 50%;
     position: fixed;
-    top: 3rem;
+    bottom: 3rem;
     right: 3rem;
     /* background-image: radial-gradient(var(--color-primary), var(--color-secondary)); */
     background: var(--text-secondary);

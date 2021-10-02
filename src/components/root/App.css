@@ -4,7 +4,7 @@
 
 .Alert {
     position: fixed;
-    bottom: 0;
+    top: 0;
     z-index: 10000;
     width: 100%;
     font-size: 1.8rem;
