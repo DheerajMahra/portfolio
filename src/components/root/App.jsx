@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt, faTimes } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faExternalLinkAlt, faTimes } from '@fortawesome/free-solid-svg-icons'
 import Navigation from '../navigation/Navigation'
 import Hero from '../hero/Hero'
 import About from '../about/About'
@@ -13,7 +13,7 @@ import Contact from '../contact/Contact'
 
 function App() {  
 
-  const [isClosed, setIsClosed] = useState(false)
+  // const [isClosed, setIsClosed] = useState(false)
 
   useEffect(() => {
     ReactGA.initialize('UA-190287965-1');
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      { !isClosed &&
+      {/* { !isClosed &&
           <div className="Alert">
             <a
             className="Alert__link"
@@ -42,7 +42,7 @@ function App() {
               />  
             </span>
           </div>
-      }
+      } */}
       <Navigation />
       <Hero />
       <About />
