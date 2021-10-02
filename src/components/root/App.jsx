@@ -10,6 +10,7 @@ import Skills from '../skills/Skills'
 import Work from '../work/Work'
 import Blog from '../blog/Blog'
 import Contact from '../contact/Contact'
+import Madsemicolon from '../madsemicolon/Madsemicolon';
 
 function App() {  
 
@@ -50,6 +51,7 @@ function App() {
       <Work />
       <Blog />
       <Contact />
+      <Madsemicolon />
     </div>
   );
 }
