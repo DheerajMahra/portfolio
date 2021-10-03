@@ -2,6 +2,7 @@
     padding: 25rem 0;
     background-color: var(--text-secondary);
     clip-path: polygon(0 25vh, 100% 0, 100% 100%, 0 100%);
+    border-bottom: .6rem solid #f17017;
 }
 
 @media (max-width: 600px) {
@@ -42,4 +43,13 @@
     color: var(--text-primary);
     font-size: 6rem;
     border-radius: 50%;
+}
+
+.Madsemicolon {
+    margin: 12rem auto 0 auto;
+    width: 50rem;
+}
+
+.Madsemicolon img{
+    width: 100%;
 }

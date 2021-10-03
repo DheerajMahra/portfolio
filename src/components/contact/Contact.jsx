@@ -3,6 +3,7 @@ import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faMedium, faInstagram, faYoutube }
 from "@fortawesome/free-brands-svg-icons"
+import madsemicolon from '../../assets/madsemicolon.png'
 
 import SectionTitle from '../shared/section-title/SectionTitle'
 import ContactIcon from './contact-icon/ContactIcon'
@@ -39,6 +40,12 @@ const Contact = () => {
                     <FontAwesomeIcon className="Contact__icon" icon={faYoutube} />
                 </ContactIcon>
             
+            </div>
+
+            <div className="u-tc Madsemicolon">
+                <a href="https://www.instagram.com/madsemicolon/" target="_blank" rel="noopener noreferrer">
+                    <img src={madsemicolon} alt="Follow Madsemicolon on Instagram" />
+                </a>
             </div>
         </div>
     )
