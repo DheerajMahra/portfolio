@@ -13,12 +13,12 @@ const Hero = () => {
                 <h1 className="Heading-primary">
                     <span className="Heading-primary--main">Dheeraj Mahra</span>
                     <a
-                        href="https://active.ai"
+                        href="https://cars24.com"
                         style={{textDecoration: "none"}}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <span className="Heading-primary--sub">&lt; Front End Developer @Active.Ai /&gt;</span></a>
+                        <span className="Heading-primary--sub">&lt; Software Engineer - Frontend @Cars24 /&gt;</span></a>
                 </h1>
             </div>
         </div>
